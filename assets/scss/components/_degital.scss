@@ -1,0 +1,40 @@
+.digital{
+    width: 100%;
+    background-image: url(./bg.svg);
+    padding-top: 200px;
+    &-bg{
+        position: absolute;
+        top: 300px;
+    }
+    &-scroll{
+        position: absolute;
+        left: 100px;
+    }
+    &__container{
+        display: flex;
+        &_info{
+            padding-left: 300px;
+            line-height: 1;
+            &-title{
+                color:#B21414 ;
+                font-size: 95px;
+                margin: 0;
+                margin-bottom: 50px;
+            }
+            &-txt{
+                font-size: 30px;
+            }
+        }
+    }
+    
+    &__img{
+        &-icon{
+            position: absolute;
+            right: 260px;
+        }
+    }
+}
+h1{
+    font-size:140px ;
+    margin: 0;
+}

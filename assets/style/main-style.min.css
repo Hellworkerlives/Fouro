@@ -131,4 +131,43 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.digital {
+  width: 100%;
+  background-image: url(./bg.svg);
+  padding-top: 200px;
+}
+.digital-bg {
+  position: absolute;
+  top: 300px;
+}
+.digital-scroll {
+  position: absolute;
+  left: 100px;
+}
+.digital__container {
+  display: flex;
+}
+.digital__container_info {
+  padding-left: 300px;
+  line-height: 1;
+}
+.digital__container_info-title {
+  color: #B21414;
+  font-size: 95px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.digital__container_info-txt {
+  font-size: 30px;
+}
+.digital__img-icon {
+  position: absolute;
+  right: 260px;
+}
+
+h1 {
+  font-size: 140px;
+  margin: 0;
 }/*# sourceMappingURL=main-style.min.css.map */
