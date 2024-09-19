@@ -1,1 +1,59 @@
-// header style
+header{
+    width: auto;
+    background-color: var(--color-bg);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 235px 0 235px;
+    &__left{
+        display: flex;
+        &-en{
+            display: flex;
+            padding-left: 50px;
+            margin-top: 25px;
+        }
+    }
+    &__center{
+        display: flex;
+        margin-top: 25px;
+    }
+    &__right{
+        display: flex;
+        &-icon{
+            &-img{
+                width: 60px;
+            }
+        }
+        &Tel{
+            padding-right: 50px;
+            &Tell{
+                font-style: 20px;
+            }
+        }
+    }
+    &__titleEN{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    &__linkEN{
+        list-style-type: none;
+    }
+    &__link{
+        list-style-type: none;
+    }
+    &__title{
+        padding-left: 50px;
+        font-size: 18px;
+    }
+    &-icon{
+        width: 104px;
+    }
+    &-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

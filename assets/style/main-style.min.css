@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
+  --color-bg:#191C27;
   --color-white: #fff;
   --color-black: #000;
   --content-width: 1200px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
   --font-size: 16px;
-  --font-family: "SF UI", sans-serif;
+  --font-family:"Montserrat", sans-serif;
 }
 
 @font-face {
@@ -40,7 +42,7 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-black);
+  background-color: var(--color-bg);
   color: var(--color-white);
   font-family: var(--font-family);
   font-weight: 400;
@@ -55,8 +57,67 @@
   margin: 0 auto;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     background-color: red;
   }
+}
+
+header {
+  width: auto;
+  background-color: var(--color-bg);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 235px 0 235px;
+}
+.navbar__left {
+  display: flex;
+}
+.navbar__left-en {
+  display: flex;
+  padding-left: 50px;
+  margin-top: 25px;
+}
+.navbar__center {
+  display: flex;
+  margin-top: 25px;
+}
+.navbar__right {
+  display: flex;
+}
+.navbar__right-icon-img {
+  width: 60px;
+}
+.navbar__rightTel {
+  padding-right: 50px;
+}
+.navbar__rightTelTell {
+  font-style: 20px;
+}
+.navbar__titleEN {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.navbar__linkEN {
+  list-style-type: none;
+}
+.navbar__link {
+  list-style-type: none;
+}
+.navbar__title {
+  padding-left: 50px;
+  font-size: 18px;
+}
+.navbar-icon {
+  width: 104px;
+}
+.navbar-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main-style.min.css.map */
