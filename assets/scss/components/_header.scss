@@ -1,9 +1,12 @@
 header{
-    width: auto;
+    width: 100%;
     background-color: var(--color-bg);
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 15px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .navbar{
     display: flex;
