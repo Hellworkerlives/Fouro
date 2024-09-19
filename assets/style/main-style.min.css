@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --color-bg:#191C27;
-  --color-white: #fff;
+  --color-white: #E0E1E3;
   --color-black: #000;
   --content-width: 1200px;
   --container-padding: 15px;
@@ -92,12 +92,14 @@ header {
 }
 .navbar__right-icon-img {
   width: 60px;
+  cursor: pointer;
 }
 .navbar__rightTel {
   padding-right: 50px;
 }
 .navbar__rightTelTell {
   font-style: 20px;
+  cursor: pointer;
 }
 .navbar__titleEN {
   font-size: 20px;
@@ -112,9 +114,14 @@ header {
 .navbar__title {
   padding-left: 50px;
   font-size: 18px;
+  transition: transform 0.3s ease;
+}
+.navbar__title:hover {
+  font-size: 20px;
 }
 .navbar-icon {
   width: 104px;
+  cursor: pointer;
 }
 .navbar-img {
   display: flex;

@@ -25,12 +25,14 @@ header{
         &-icon{
             &-img{
                 width: 60px;
+                cursor: pointer;
             }
         }
         &Tel{
             padding-right: 50px;
             &Tell{
                 font-style: 20px;
+                cursor: pointer;
             }
         }
     }
@@ -47,9 +49,14 @@ header{
     &__title{
         padding-left: 50px;
         font-size: 18px;
+        transition: transform 0.3s ease;
+        &:hover{
+            font-size: 20px;
+        }
     }
     &-icon{
         width: 104px;
+        cursor: pointer;
     }
     &-img{
         display: flex;
