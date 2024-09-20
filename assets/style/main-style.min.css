@@ -46,6 +46,7 @@
   color: var(--color-white);
   font-family: var(--font-family);
   font-weight: 400;
+  overflow-x: hidden;
 }
 .application__template {
   width: 100%;
@@ -138,6 +139,7 @@ header {
   width: 100%;
   background-image: url(./bg.svg);
   padding-top: 200px;
+  height: 1132px;
 }
 .digital-bg {
   position: absolute;
@@ -172,4 +174,37 @@ header {
 h1 {
   font-size: 140px;
   margin: 0;
+}
+
+.grate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  justify-content: flex-end;
+  align-items: baseline;
+  height: 1000px;
+}
+.grate__info-txt {
+  font-size: 30px;
+  font-weight: 300;
+}
+.grate__container {
+  padding-left: 100px;
+  padding-right: 200px;
+}
+.grate__container__txt {
+  background-color: rgba(178, 20, 20, 0.4);
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 30px;
+  font-size: 30px;
+  margin: 5 5 5 5;
+  margin-bottom: 0px;
+}
+.grate__container_info {
+  display: flex;
+}
+.grate-bg {
+  position: absolute;
+  top: 1450px;
 }/*# sourceMappingURL=main-style.min.css.map */

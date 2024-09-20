@@ -1,0 +1,36 @@
+.grate{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    justify-content: flex-end;
+    align-items: baseline;  
+    height: 1000px;
+    &__info{
+        &-txt{
+            font-size: 30px;
+            font-weight:300;
+        }
+    }  
+    &__container{
+        padding-left: 100px;
+        padding-right: 200px;
+        
+        &__txt{
+            background-color: rgba(178, 20, 20, 0.4);
+            padding: 15px;
+            margin-left: 20px;
+            border-radius: 30px;
+            font-size: 30px;
+            margin: 5 5 5 5;
+            margin-bottom: 0px;
+        }
+        &_info{
+            display: flex;
+        }
+    }
+    &-bg{
+        position: absolute;
+        top: 1450px;
+        
+    }
+}
