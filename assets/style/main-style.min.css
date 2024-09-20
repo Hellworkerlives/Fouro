@@ -144,6 +144,7 @@ header {
 .digital-bg {
   position: absolute;
   top: 300px;
+  z-index: -1;
 }
 .digital-scroll {
   position: absolute;
@@ -180,13 +181,16 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 200px;
-  justify-content: flex-end;
   align-items: baseline;
   height: 1000px;
+}
+.grate__info {
+  margin-left: 230px;
 }
 .grate__info-txt {
   font-size: 30px;
   font-weight: 300;
+  line-height: 1, 5;
 }
 .grate__container {
   padding-left: 100px;
@@ -198,7 +202,7 @@ h1 {
   margin-left: 20px;
   border-radius: 30px;
   font-size: 30px;
-  margin: 5 5 5 5;
+  margin-top: 15px;
   margin-bottom: 0px;
 }
 .grate__container_info {
@@ -206,5 +210,56 @@ h1 {
 }
 .grate-bg {
   position: absolute;
-  top: 1450px;
+  top: 1350px;
+  z-index: -1;
+}
+
+.fouro {
+  width: 100%;
+  margin-bottom: 200px;
+}
+.fouro__container {
+  margin-left: 200px;
+}
+.fouro__container-zag {
+  display: flex;
+}
+.fouro__container-zagWhite {
+  margin-right: 10px;
+  font-size: 50px;
+}
+.fouro__container-zagRed {
+  color: #e21919;
+  font-size: 50px;
+}
+.fouro__container-info {
+  font-size: 30px;
+}
+.fouro__container-info-top {
+  margin-top: 50px;
+}
+.fouro__container-info-button {
+  margin-top: 50px;
+}
+.fouro__container-but {
+  margin-top: 60px;
+}
+.fouro__container-but-knopka {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #B21414;
+  color: white;
+  padding: 20px 40px 20px 40px;
+  font-weight: 400;
+  border-radius: 100px;
+  border: 5px solid rgba(53, 34, 34, 0.78);
+}
+.fouro-scroll {
+  position: absolute;
+  left: 100px;
+}
+.fouro-bg {
+  position: absolute;
+  top: 2500px;
+  z-index: -1;
 }/*# sourceMappingURL=main-style.min.css.map */
