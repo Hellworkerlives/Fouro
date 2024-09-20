@@ -1,0 +1,28 @@
+.site{
+    margin-top: 500px;
+    width: 100%;
+    margin-bottom: 200px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 200px;
+        &-right{
+            &-title{
+                font-size:50px ;
+                margin-top: 100px;
+            }
+            &-txt{
+                font-size: 30px;
+                margin-bottom: 100px;
+                margin-top: 55px;
+            }
+        }
+        &-left{
+            &-img{
+                width: 522px;
+                height: 549px;
+            }
+        }
+    }
+}

@@ -262,4 +262,29 @@ h1 {
   position: absolute;
   top: 2500px;
   z-index: -1;
+}
+
+.site {
+  margin-top: 500px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+.site__container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.site__container-right-title {
+  font-size: 50px;
+  margin-top: 100px;
+}
+.site__container-right-txt {
+  font-size: 30px;
+  margin-bottom: 100px;
+  margin-top: 55px;
+}
+.site__container-left-img {
+  width: 522px;
+  height: 549px;
 }/*# sourceMappingURL=main-style.min.css.map */
