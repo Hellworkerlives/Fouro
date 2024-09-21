@@ -393,4 +393,39 @@ h1 {
   padding: 50px;
   padding-top: 0;
   padding-left: 0;
+}
+
+.com {
+  background-color: var(--color-bg);
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.com__container {
+  display: flex;
+  gap: 20px;
+}
+.com__container-gard-info {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 30px;
+  height: 333px;
+  width: 593px;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.com__container-gard-title {
+  color: #191C27;
+  font-weight: 450;
+}
+.com__container-gard-txt {
+  color: #191C27;
+  font-size: 16px;
+}
+.com-title {
+  font-size: 50px;
+  font-weight: 600;
 }/*# sourceMappingURL=main-style.min.css.map */
