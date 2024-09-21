@@ -147,7 +147,7 @@ header {
   height: 1132px;
 }
 .digital-bg {
-  position: absolute;
+  position: fixed;
   top: 300px;
   z-index: -1;
 }
@@ -277,9 +277,10 @@ h1 {
 }
 
 .site {
-  margin-top: 500px;
+  padding-top: 200px;
   width: 100%;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
+  background-color: #191C27;
 }
 .site__container {
   display: flex;
@@ -303,8 +304,9 @@ h1 {
 
 .analist {
   width: 100%;
-  margin-top: 400px;
-  margin-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: #191C27;
 }
 .analist-title {
   margin-top: 30px;
@@ -312,9 +314,61 @@ h1 {
 
 .mark {
   width: 100%;
-  margin-top: 400px;
-  margin-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: #191C27;
 }
 .mark-title {
   margin-top: 0;
+}
+
+.salon {
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-color: #191C27;
+}
+.salon__container-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-top: 1px solid white;
+}
+.salon__container-1:hover {
+  color: #B21414;
+  border-top: 1px solid #B21414;
+  border-bottom: 1px solid #B21414;
+}
+.salon__container-1-right {
+  display: flex;
+}
+.salon__container-title {
+  cursor: pointer;
+}
+.salon__container-4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.salon__container-4:hover {
+  color: #B21414;
+  border-top: 1px solid #B21414;
+  border-bottom: 1px solid #B21414;
+}
+.salon-knopka {
+  margin-top: 100px;
+}
+.salon-img {
+  position: absolute;
+  left: 800px;
+  top: 5980px;
 }/*# sourceMappingURL=main-style.min.css.map */
