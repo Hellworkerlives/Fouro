@@ -398,10 +398,37 @@ h1 {
 .com {
   background-color: var(--color-bg);
   padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.com__video {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+.com__video-gard {
+  width: 593px;
+  height: 333px;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: transform 0.9s ease;
+}
+.com__video-icon {
+  cursor: pointer;
+}
+.com__video-icon:hover {
+  width: 170px;
+  transform: scale(1.1);
+}
+.com__video-icon:active {
+  width: auto;
+  transform: scale(0.95);
 }
 .com__container {
   display: flex;
@@ -428,4 +455,7 @@ h1 {
 .com-title {
   font-size: 50px;
   font-weight: 600;
+}
+.com-button {
+  margin-top: 50px;
 }/*# sourceMappingURL=main-style.min.css.map */
