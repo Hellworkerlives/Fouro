@@ -1,0 +1,30 @@
+.feedback{
+    background-color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    &__container{
+        display: flex;
+        gap: 10px;
+        &-reg{
+            background-color: white;
+            display: flex;
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 6px;
+            &-name{
+                border: none;
+                padding: 8px;
+                &:focus{
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+    }
+    &-title{
+        font-weight: 500;
+        font-size: 50px;
+    }
+}

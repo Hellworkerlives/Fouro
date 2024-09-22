@@ -458,4 +458,35 @@ h1 {
 }
 .com-button {
   margin-top: 50px;
+}
+
+.feedback {
+  background-color: black;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.feedback__container {
+  display: flex;
+  gap: 10px;
+}
+.feedback__container-reg {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 6px;
+}
+.feedback__container-reg-name {
+  border: none;
+  padding: 8px;
+}
+.feedback__container-reg-name:focus {
+  outline: none;
+  border: none;
+}
+.feedback-title {
+  font-weight: 500;
+  font-size: 50px;
 }/*# sourceMappingURL=main-style.min.css.map */
