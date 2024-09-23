@@ -466,10 +466,27 @@ h1 {
   padding-right: 300px;
   padding-top: 100px;
   padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
 }
 .feedback__container {
   display: flex;
   gap: 10px;
+}
+.feedback__container-com {
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  height: 240px;
+  width: 660px;
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.feedback__container-com-reg {
+  display: flex;
+  align-items: center;
 }
 .feedback__container-reg {
   background-color: white;
@@ -477,6 +494,7 @@ h1 {
   padding: 10px;
   padding-left: 20px;
   border-radius: 6px;
+  padding-right: 72px;
 }
 .feedback__container-reg-name {
   border: none;
@@ -489,4 +507,17 @@ h1 {
 .feedback-title {
   font-weight: 500;
   font-size: 50px;
+  margin-top: 0;
+}
+.feedback__button {
+  margin-top: 20px;
+}
+.feedback__bg {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 950px;
+  height: 715px;
+  left: 1000px;
+  z-index: 1;
 }/*# sourceMappingURL=main-style.min.css.map */
