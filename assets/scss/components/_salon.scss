@@ -50,5 +50,8 @@
         position: absolute;
         left: 800px;
         top: 5980px;
+        @media (max-width: 1024px){
+            display: none;
+        }
     }
 }

@@ -23,6 +23,9 @@
             &-img{
                 width: 522px;
                 height: 549px;
+                @media (max-width: 1024px){
+                    display: none;
+                }
             }
         }
     }

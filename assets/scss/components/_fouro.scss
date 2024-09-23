@@ -1,6 +1,11 @@
 .fouro{
     width: 100%;
     margin-bottom: 200px;
+    @media (max-width: 1024px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     &__container{
         margin-left: 200px;
         &-zag{
@@ -47,6 +52,9 @@
     &-scroll{
         position: absolute;
         left: 100px;
+        @media (max-width: 1024px){
+            left: 50px;
+        }
     }
     &-bg{
         position: absolute;

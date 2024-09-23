@@ -9,6 +9,10 @@
         padding-left: 100px;
         padding-right: 100px;
         flex-grow: 1;
+        @media (max-width: 1024px){
+            padding-left: 10px;
+            padding-right: 10px;
+        }
         &-name{
             &-logo{
                 margin-bottom: 55px;

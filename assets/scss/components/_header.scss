@@ -6,12 +6,13 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 3;
+    justify-content: center;
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
-    margin: 15px 235px 0 235px;
+    justify-content: space-around;
+    
     &__left{
         display: flex;
         &-en{
@@ -34,9 +35,15 @@ header{
         }
         &Tel{
             padding-right: 50px;
+            @media (max-width: 1024px){
+                display: none;
+            }
             &Tell{
                 font-style: 20px;
                 cursor: pointer;
+                @media (max-width: 1024px){
+                    font-size: 5px;
+                }
             }
         }
     }
