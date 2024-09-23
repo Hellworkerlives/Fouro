@@ -520,4 +520,27 @@ h1 {
   height: 715px;
   left: 1000px;
   z-index: 1;
+}
+
+.footer {
+  background-color: #191C27;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-grow: 1;
+}
+.footer__container-name-logo {
+  margin-bottom: 55px;
+}
+.footer__container-name-txt {
+  font-size: 16px;
+}
+.footer__container-ser-title {
+  font-size: 18px;
 }/*# sourceMappingURL=main-style.min.css.map */
