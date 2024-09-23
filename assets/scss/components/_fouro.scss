@@ -8,15 +8,24 @@
     }
     &__container{
         margin-left: 200px;
+        @media (max-width: 425px){
+            margin-left: 0;
+        }
         &-zag{
             display: flex;
             &White{
                 margin-right: 10px;
                 font-size: 50px;
+                @media (max-width: 425px){
+                    font-size: 35px;
+                }
             }
             &Red{
                 color: #e21919;
                 font-size: 50px;
+                @media (max-width: 425px){
+                    font-size: 35px;
+                }
             }
         }
         &-info{
@@ -54,6 +63,9 @@
         left: 100px;
         @media (max-width: 1024px){
             left: 50px;
+        }
+        @media (max-width: 425px){
+            display: none;
         }
     }
     &-bg{

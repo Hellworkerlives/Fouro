@@ -30,6 +30,10 @@
             display: flex;
             flex-direction: column;
         } 
+        @media (max-width: 425px){
+            padding-left: 0;
+            padding-right: 0;
+        }
         &__txt{
             background-color: rgba(178, 20, 20, 0.4);
             padding: 15px;
@@ -38,6 +42,12 @@
             font-size: 30px;
             margin-top: 15px;
             margin-bottom: 0px;
+            @media (max-width: 425px){
+                padding: 5px;
+                font-size: 20px;
+                margin-left: 0;
+
+            }
         }
         &_info{
             display: flex;

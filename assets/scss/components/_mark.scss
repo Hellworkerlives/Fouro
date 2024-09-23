@@ -5,5 +5,8 @@
     background-color: #191C27;
     &-title{
         margin-top: 0;
+        @media (max-width: 425px){
+            font-size: 30px;
+        }
     }
 }

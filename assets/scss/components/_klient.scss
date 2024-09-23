@@ -12,6 +12,12 @@
         font-size: 50px;
         padding-left: 100px;
         padding-top: 10px;
+        @media (max-width: 425px){
+            padding-left: 0;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
     }
     &__container{
         padding: 100px;
@@ -22,6 +28,10 @@
             padding: 50px;
             padding-top: 0;
             padding-left: 0;
+            @media (max-width: 425px){
+                flex-direction: column;
+                padding-bottom: 20px;
+            }
         }
     }
 }

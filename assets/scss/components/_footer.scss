@@ -13,6 +13,10 @@
             padding-left: 10px;
             padding-right: 10px;
         }
+        @media (max-width: 425px){
+            flex-direction: column;
+            align-items: center;
+        }
         &-name{
             &-logo{
                 margin-bottom: 55px;

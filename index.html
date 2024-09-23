@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="/assets/style/normalize.min.css">
     <link rel="stylesheet" href="/assets/style/main-style.min.css">
-    <script defer src="/assets/javascript/application.js"></script>
 </head>
 <body class="application">
     <div class="application__template">
@@ -36,6 +35,20 @@
                     <div class="navbar__rightTel"><h2 class="navbar__rightTell">+7 (499) 375-41-14</h2></div>
                     <div class="navbar__right-icon">
                         <img src="./assets/img/Group 1829.svg" alt="Telephone" class="navbar__right-icon-img">
+                        <button class="fouro__container-but-knopka button" id="openModal">меню</button>
+                        <div class="modal" id="myModal">
+                            <div class="modal-content">
+                                <span class="close" id="closeModal">&times;</span>
+                                <ul class="services">
+                                    <li class="navbar__link"><a href="#!" class="navbar__title">Услуги</a></li>
+                                    <li class="navbar__link"><a href="#!" class="navbar__title">Кейсы</a></li>
+                                    <li class="navbar__link"><a href="#!" class="navbar__title">О нас</a></li>
+                                    <li class="navbar__link"><a href="#!" class="navbar__title">Отзывы</a></li>
+                                    <li class="navbar__link"><a href="#!" class="navbar__title">Контакты</a></li>
+                                    <h2>+7 (499) 375-41-14</h2>
+                               </ul>
+                           </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -314,6 +327,7 @@
                     <h2 class="footer__container-ser-title">info@fouro.ru</h2>
                 </div>
         </footer>
+        <script defer src="/assets/javascript/application.js"></script>
     </div>
 </body>
 </html>
